@@ -10,7 +10,7 @@ namespace TestProject1
 		public void TestMethod1()
 		{
 			var m = new Manager();
-			var m2 = m.Add(1, 2);
+			var m2 = m.Add(1, 4);
 			Assert.IsTrue(m2 == 3);
 		}
 	}
